@@ -1,3 +1,4 @@
+import os
 import torch
 import torchvision.transforms as transforms
 from PIL import Image
@@ -19,6 +20,7 @@ def print_examples(model, device, dataset):
     )
 
 def save_checkpoint(state, step, checkpoint_dir="./checkpoint", filename="my_checkpoint.pth.tar"):
+    os.mkdir("checkpoint/")
     print("=> Saving checkpoint")
     torch.save(state, f"{checkpoint_dir}/{step}_{filename}")
 
