@@ -20,9 +20,12 @@ def print_examples(model, device, dataset):
     )
 
 def save_checkpoint(state, step, checkpoint_dir="./checkpoint", filename="my_checkpoint.pth.tar"):
-    os.mkdir("checkpoint/")
     print("=> Saving checkpoint")
-    torch.save(state, f"{checkpoint_dir}/{step}_{filename}")
+    if step==2000:
+        os.mkdir("checkpoint/")
+        torch.save(state, f"{checkpoint_dir}/{step}_{filename}")
+    else:
+        torch.save(state, f"{checkpoint_dir}/{step}_{filename}")
 
 def load_checkpoint(checkpoint, model, optimizer):
     print("=> Loading checkpoint")
