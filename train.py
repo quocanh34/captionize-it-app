@@ -49,7 +49,7 @@ def train():
     vocab_size = len(dataset.vocab)
     num_layers = 1
     learning_rate = 3e-4
-    num_epochs = 1 
+    num_epochs = 150
 
 
     # for tensorboard
@@ -108,7 +108,7 @@ def train():
             loss.backward(loss)
             optimizer.step()
 
-            if step % 200 == 0:
+            if step % 2000 == 0:
                 save_model(model, optimizer, step)
 
 if __name__ == "__main__":
