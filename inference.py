@@ -37,10 +37,10 @@ def inference(example_path, checkpoint_path, device="cuda"):
 
     test_img1 = transform(Image.open(example_path).convert("RGB")).unsqueeze(0).to(device)
 
-    print("Example 1 CORRECT: A girl running in the field")
+    print("Example 1 CORRECT: A girl is hugging a cat on a bed")
     print(
         "Example 1 OUTPUT: "
         + " ".join(model.caption_image(test_img1, dataset.vocab))
     )
 
-inference(example_path="test_examples/girl.jpeg", checkpoint_path="checkpoint/200_my_checkpoint.pth.tar")
+inference(example_path="test_examples/cat_child.jpg", checkpoint_path="checkpoint/200_my_checkpoint.pth.tar")

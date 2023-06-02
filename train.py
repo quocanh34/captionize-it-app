@@ -108,7 +108,7 @@ def train():
             loss.backward(loss)
             optimizer.step()
 
-            if step % 2000 == 0:
+            if step % 5000 == 0:
                 save_model(model, optimizer, step)
 
 if __name__ == "__main__":
