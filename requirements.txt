@@ -1,0 +1,8 @@
+nltk==3.8.1
+numpy==1.24.3
+pandas==2.0.2
+tensorboard==2.13.0
+torch==2.0.1
+torchvision==0.15.2
+tornado==6.3.2
+tqdm==4.65.0
