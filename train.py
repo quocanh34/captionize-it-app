@@ -31,7 +31,7 @@ def train():
         captions_file="data/flickr8k/captions.txt",
         transform=transform,
         batch_size=32,
-        num_workers=2,
+        num_workers=4,
         shuffle=True,
         pin_memory=True,
     )
