@@ -43,4 +43,4 @@ def inference(example_path, checkpoint_path, device="cuda"):
         + " ".join(model.caption_image(test_img1, dataset.vocab))
     )
 
-inference(example_path="test_examples/cat_child.jpg", checkpoint_path="checkpoint/200_my_checkpoint.pth.tar")
+inference(example_path="test_examples/cat_child.jpg", checkpoint_path="checkpoint/6000_my_checkpoint.pth.tar")

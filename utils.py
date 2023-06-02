@@ -21,7 +21,7 @@ def print_examples(model, device, dataset):
 
 def save_checkpoint(state, step, checkpoint_dir="./checkpoint", filename="my_checkpoint.pth.tar"):
     print("=> Saving checkpoint")
-    if step==2000:
+    if step==5000:
         os.mkdir("checkpoint/")
         torch.save(state, f"{checkpoint_dir}/{step}_{filename}")
     else:
