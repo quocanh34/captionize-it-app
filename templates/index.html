@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Captionize it!</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="app-title">Captionize it!</h1>
+        <div class="section">
+            <div class="upload-section">
+                <h2>Input image</h2>
+                <form action="/" method="POST" enctype="multipart/form-data">
+                    <div class="upload-container">
+                        <label for="image-upload" class="upload-label">Choose Image</label>
+                        <input type="file" name="image" id="image-upload" style="display: none;">
+                        <p id="file-name" style="font-style: italic; font-weight:bold;">{{ file_name }}</p>
+                    </div>
+                    <p class="error-message">{{ error }}</p>
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </div>
+
+            <div class="output-section">
+                <div class="image-section">
+                    <h2>Captions</h2>
+                    <div id="uploaded-image-container">
+                        {% if image %}
+                            <img src="{{ url_for('static', filename='uploads/' + file_name) }}" alt="Uploaded Image">
+                        {% else %}
+                            <p>No image uploaded</p>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="caption-section">
+                    <!-- <h2>Captions</h2> -->
+                    <p class="caption-text">{{ captions }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

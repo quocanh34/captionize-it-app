@@ -1,0 +1,134 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.app-title {
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin-top: 20px;
+}
+
+.upload-section,
+.output-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    width: 50%;
+}
+
+
+.upload-section {
+    margin-right: 20px;
+}
+
+.upload-section h2 {
+    margin-top: 5px;
+    color: #2980b9;
+}
+
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.upload-container.upload-label {
+    margin-top: 20px;
+    padding: 7px;
+}
+
+.upload-label {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.upload-label:hover {
+    background-color: #2471a3;
+}
+
+.submit-button {
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    align-self: center;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    /* Add the following code */
+    display: block;
+    margin: 10px auto;
+}
+
+.submit-button:hover {
+    background-color: #2980b9;
+}
+
+.error-message {
+    color: #c0392b;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.caption-section {
+    text-align: center;
+}
+
+.caption-section h2 {
+    margin-top: 5px;
+    color: #2980b9;
+}
+
+.caption-text {
+    color: #2c3e50;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.file-name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.image-section h2{
+    margin-top: 5px;
+    color: #2980b9;
+}
+
+.image-section {
+    text-align: center;
+}

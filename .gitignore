@@ -1,6 +1,12 @@
 /__pycache__
-/runs
-/models/__pycache__
 /cinnamon
-/data/__pycache__
-/data/flickr8k/
+/flagged
+/src/__pycache__
+/src/checkpoint
+/src/data/__pycache__
+/src/data/flickr8k
+/models/__pycache__
+
+
+
+
