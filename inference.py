@@ -1,6 +1,6 @@
 import torch
 import torchvision.transforms as transforms
-# import json
+import json
 from src.models.model import EncoderDecoder
 from PIL import Image
 
