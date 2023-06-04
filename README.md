@@ -1,6 +1,6 @@
 <div align="left">
     <h1>Captionize it app</h1>
-    <img src="![github_video](https://github.com/quocanh34/captionize-it-app/assets/79373948/c01cbe48-e76a-4c88-9d19-c7f04b63a3fe)" width="800" height="420">
+    <img src="https://github.com/quocanh34/captionize-it-app/blob/master/github_video.gif" width="40" height="40" />
 </div>
 
 ## Table Of Contents
