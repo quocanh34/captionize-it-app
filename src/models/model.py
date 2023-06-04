@@ -2,8 +2,10 @@ import torch
 import torch.nn as nn
 import torchvision.models as models
 import statistics
-from src.models.encoder import Encoder
-from src.models.decoder import Decoder
+from src.models.encoder import Encoder # comment if training
+from src.models.decoder import Decoder # comment if training
+# from models.encoder import Encoder --> uncomment if training
+# from models.decoder import Decoder --> uncomment if training
 
 class EncoderDecoder(nn.Module):
     """
