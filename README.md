@@ -10,6 +10,7 @@ This project implements an image captioning system using PyTorch and Flask. It g
 ## Features
 - Trained model for image captioning and utilization of vast.ai GPU.
 - Web interface for captioning images using Flask.
+- Adding cross attention for models (not completed)
 - Docker package (not completed)
 - Cloud server deployment (not completed)
 
