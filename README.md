@@ -2,6 +2,8 @@
 
 # Captionize it app     
 
+![github_video](https://github.com/quocanh34/captionize-it-app/assets/79373948/effa9c2c-8810-4976-99c1-a6c959862edf)
+
 </div>
 
 ## Table Of Contents
