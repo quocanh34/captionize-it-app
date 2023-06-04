@@ -27,6 +27,7 @@ source captionize/bin/activate  # for Unix/Linux
 captionize\Scripts\activate  # for Windows
 ```   
 Second, install dependencies.   
+
 ```bash
 pip install -r requirements.txt
 ```  
