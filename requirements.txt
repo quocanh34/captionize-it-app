@@ -7,3 +7,4 @@ torch==2.0.1
 torchvision==0.15.2
 tornado==6.3.2
 tqdm==4.65.0
+python-dotenv
