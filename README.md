@@ -14,7 +14,7 @@ This project implements an image captioning system using PyTorch and Flask. It g
 - Docker package (not completed)
 - Cloud server deployment (not completed)
 
-## For more details of model training architecture and webapp
+## For more details of model training architectures and webapp
 - Reading my blog at ...
 
 ## Installation
