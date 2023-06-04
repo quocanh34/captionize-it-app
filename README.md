@@ -36,7 +36,7 @@ git clone https://github.com/quocanh34/captionize-it-app.git
 cd captionize-it-app
 
 # set up virtual env   
-python -m venv captionize
+python3 -m venv captionize
 
 # activate the env
 source captionize/bin/activate  # for Unix/Linux
