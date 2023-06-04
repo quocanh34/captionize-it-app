@@ -4,6 +4,14 @@
 
 </div>
 
+## Table Of Contents
+-  [Description](#description)
+-  [Features](#features)
+-  [Details blog](#for-more-details-of-model-training-architectures-and-webapp)
+-  [Requirements](#requirements)
+-  [Installation](#installation)
+-  [Citation](#citation)
+
 ## Description   
 This project implements an image captioning system using PyTorch and Flask. It generates descriptive captions for input images using a deep learning encoder-decoder model and provides a web interface for captioning images.
 
@@ -16,6 +24,9 @@ This project implements an image captioning system using PyTorch and Flask. It g
 
 ## For more details of model training architectures and webapp
 - Reading my blog at ...
+
+## Requirements
+- Flask, nltk, numpy, tqdm, python-dotenv, torch, torchvision.
 
 ## Installation
 First, clone and set up virtual environment
