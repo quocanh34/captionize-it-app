@@ -22,7 +22,7 @@ This project implements an image captioning system using PyTorch and Flask. It g
 - Cloud server deployment (not completed)
 
 ## For more details of model training architectures and webapp
-- Reading my blog at ...
+- Reading my blog at https://quocanh34.github.io/blog/2023/image-captioning/
 
 ## Requirements
 - Flask, nltk, numpy, tqdm, python-dotenv, torch, torchvision.
