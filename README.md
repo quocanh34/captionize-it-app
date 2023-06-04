@@ -21,21 +21,32 @@ cd captionize-it-app
 
 # set up virtual env   
 python -m venv captionize
+
+# activate the env
 source captionize/bin/activate  # for Unix/Linux
 captionize\Scripts\activate  # for Windows
 ```   
-Next, install dependencies.   
+Second, install dependencies.   
 ```bash
 pip install -r requirements.txt
 ```  
 Next, download the trained model
 
 - Go to the link: https://drive.google.com/file/d/142-ZaLaKSUNYLg82mUYwtxJ6X_AGQtAI/view?usp=drive_link
+
 - Download and move it to **src/checkpoint/**
 
 Now run the app
 ```bash
 # run flask 
 python app.py
+```   
+
+### Citation   
+```
+@{title={Captionize it app},
+  author={Anh Pham},
+  year={2023}
+}
 ```   
 
