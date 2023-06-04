@@ -2,7 +2,7 @@
 /cinnamon
 /flagged
 /src/__pycache__
-/src/checkpoint
+/src/checkpoint/185000_my_checkpoint.pth.tar
 /src/data/__pycache__
 /src/data/flickr8k
 /models/__pycache__
